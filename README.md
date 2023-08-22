@@ -1,2 +1,26 @@
 # ios-scripts
-iOS项目中日常使用的脚本汇总
+iOS项目中日常使用的脚本总结
+
+tool_bug_symbolCrash
+崩溃日志的手动符号化
+
+
+tool_framework_xcframework
+创建xcframework
+
+tool_project_batchReplace
+递归遍历工程中的每个文件，查询目标字符串。支持对目标字符串做批量统一替换
+
+tool_project_batchZipPicture
+递归遍历工程中的每个png切图，进行批量压缩，替换
+
+script_build_autoSwitchFramework
+xcode编译前，对于内嵌的动态库根据不同平台进行自动替换
+
+
+tool_project_buildDepends
+对于工程下包含多个子工程，且多个子工程之前有编译依赖关系的，可以使用脚本固定子工程的编译顺序，进行批量编译
+
+
+tool_project_findUnUsePicture
+查询项目中未使用的图片名
